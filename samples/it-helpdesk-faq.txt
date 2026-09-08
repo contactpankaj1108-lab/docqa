@@ -1,0 +1,56 @@
+IT HELPDESK - FREQUENTLY ASKED QUESTIONS
+Northwind Analytics | Internal Support Wiki | Last updated 20 February 2026
+
+HOW DO I CONTACT THE HELPDESK?
+Raise a ticket in the service portal, or email helpdesk@northwind.example. The desk is staffed
+08:00-18:00 on working days. Outside those hours, only severity 1 outages are handled, through the
+on-call number listed on the intranet home page. Note that security incidents do not go to the
+helpdesk: they go to the security team within one hour, as set out in the information security
+policy.
+
+WHAT ARE THE RESPONSE TARGETS?
+Severity 1, a full outage of a business-critical system: response within 30 minutes, around the
+clock. Severity 2, a major function unavailable for a team: response within 2 working hours.
+Severity 3, an individual blocked: response within 1 working day. Severity 4, a request or
+question: response within 3 working days.
+
+I HAVE FORGOTTEN MY PASSWORD. WHAT DO I DO?
+Use the self-service reset link on the sign-in page. It requires your registered phone for
+multi-factor authentication. If your phone is also unavailable, the helpdesk can verify your
+identity over a video call with photo ID and issue a temporary password valid for one hour. The
+helpdesk will never ask for your existing password, and will never send a password over chat.
+
+WHEN AM I ELIGIBLE FOR A REPLACEMENT LAPTOP?
+Standard laptops are refreshed every 3 years. Earlier replacement is approved where a repair would
+cost more than half the replacement price, where the device cannot run supported software, or after
+accidental damage, which requires manager approval. Loan devices are available from the office
+front desk for up to 5 working days.
+
+HOW LONG DOES NEW-STARTER EQUIPMENT TAKE?
+Hardware is delivered to the starter's registered address at least 2 working days before the start
+date, provided HR confirmed the start date at least 10 working days in advance. Accounts and access
+are provisioned overnight before day one. Requests raised inside the 10-day window are fulfilled on
+a best-effort basis.
+
+HOW DO I GET SOFTWARE INSTALLED?
+Anything on the approved software catalogue can be installed by the user from the self-service
+portal without a ticket. Software outside the catalogue needs a ticket with a business
+justification, a manager approval, and, where the software processes company data, a security
+review. Typical turnaround for a catalogue addition is 10 working days.
+
+HOW DO I CONNECT TO THE VPN?
+The VPN client is pre-installed on managed laptops and connects automatically on untrusted
+networks. If it fails, sign out and back in, then restart the client from the system tray. Persistent
+failures are usually an expired device certificate, which the helpdesk renews remotely in a few
+minutes. The VPN is not required for the analytics platform, which is reached over the managed
+identity provider.
+
+CAN I USE A PERSONAL DEVICE FOR WORK?
+Email and chat are available on personal phones through the managed application container. Personal
+laptops must not be used for company work, and Confidential or Restricted data must never be
+processed on them.
+
+HOW DO I CLAIM AN EXPENSE?
+Submit the claim in the expenses system within 60 days of the spend, with an itemised receipt.
+Claims are approved by the line manager and paid in the next payroll run after approval. Claims
+older than 60 days require a director-level exception.

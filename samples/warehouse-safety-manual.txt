@@ -1,0 +1,64 @@
+FULFILMENT CENTRE EQUIPMENT AND SAFETY MANUAL
+Northwind Logistics | OPS-220 | Revision 9 | Issued 5 January 2026
+
+SECTION 1 - PURPOSE
+This manual sets out the safe operation of material handling equipment in Northwind fulfilment
+centres. It applies to all site staff, agency workers and visiting contractors. Site induction
+must be completed before entering the operational floor for the first time.
+
+SECTION 2 - PERSONAL PROTECTIVE EQUIPMENT
+The following PPE is mandatory across the whole operational floor: high-visibility vest or jacket,
+steel toe-capped safety footwear, and, in the racking aisles and goods-in bays, a bump cap. Cut
+resistant gloves are mandatory when handling banding, opening cartons with a knife, or handling
+glass. Hearing protection is mandatory in the baler area and in any zone marked with the yellow ear
+protection sign. Loose clothing, jewellery and untied long hair are not permitted near conveyors.
+
+SECTION 3 - POWERED PALLET TRUCKS AND FORKLIFTS
+Only staff holding a valid in-date licence for the specific truck class may operate it. Licences
+are valid for 3 years and require a refresher assessment to renew. Every operator completes a
+pre-use inspection at the start of each shift, covering forks, mast, hydraulics, brakes, horn,
+lights, tyres and battery state, and records the result on the truck's check sheet. Any defect
+found makes the truck out of service: attach a red tag, remove the key, and report it to the shift
+supervisor immediately.
+
+Site speed limit is 8 km/h in aisles and 5 km/h at junctions and in pedestrian zones. Forks are
+carried no more than 150 mm above the floor when travelling. Never travel with a raised load, never
+carry a passenger, and never lift a person on the forks. Pedestrians always have right of way;
+sound the horn at every blind corner and at every aisle end.
+
+SECTION 4 - RACKING AND LOAD HANDLING
+Maximum load per pallet position is displayed on the rack beam label and must never be exceeded.
+Damaged racking must be reported and the bay taken out of use immediately. Manual lifting is
+limited to 25 kg for a single person; heavier items require two people or a lifting aid. Cartons
+must not be stacked above shoulder height on a manual pallet.
+
+SECTION 5 - CONVEYORS AND LOCKOUT/TAGOUT
+Conveyor guards must be in place before any conveyor is started. Any maintenance, clearing of a
+jam, or work inside a guard requires full lockout/tagout: isolate the energy source, apply a
+personal lock and tag, verify zero energy by attempting a start, then perform the work. Only the
+person who applied a lock may remove it. Reaching into a running conveyor for any reason is a
+dismissible offence.
+
+SECTION 6 - BATTERY CHARGING
+Charging takes place only in the designated charging bay, which must remain clear of combustible
+material. Wear a face shield and acid-resistant gloves when connecting lead-acid batteries. The
+eyewash station in the charging bay is checked weekly and the check is recorded. Do not disconnect
+a battery under load.
+
+SECTION 7 - ACCIDENT AND NEAR-MISS REPORTING
+All accidents, injuries and near misses must be reported to the shift supervisor before the end of
+the shift, and recorded in the site incident log the same day. Injuries requiring more than first
+aid are reported to the site manager immediately and to the health and safety lead within 24 hours.
+Near misses are reviewed weekly at the site safety meeting. Reporting a near miss never results in
+disciplinary action against the reporter.
+
+SECTION 8 - EMERGENCIES
+On hearing the continuous alarm, stop work, make equipment safe where it is, and leave by the
+nearest marked exit to the assembly point shown on the zone plan. Do not use lifts. Fire marshals
+sweep their zones and report to the incident controller at the assembly point. Do not re-enter the
+building until the incident controller gives the all-clear.
+
+SECTION 9 - TRAINING RECORDS
+Site induction is refreshed annually. Manual handling training is refreshed every 2 years, and
+lockout/tagout authorisation every year. Training records are held by the site administrator and
+audited quarterly.
