@@ -1,0 +1,19 @@
+services:
+  docqa:
+    build: .
+    image: docqa:latest
+    ports:
+      - "8000:8000"
+    environment:
+      # Optional: without it, answers are extractive instead of generated.
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      DOCQA_MODEL: ${DOCQA_MODEL:-claude-opus-5}
+      DOCQA_EFFORT: ${DOCQA_EFFORT:-medium}
+      DOCQA_DATA_DIR: /data
+    volumes:
+      # Documents and the index survive container restarts.
+      - docqa-data:/data
+    restart: unless-stopped
+
+volumes:
+  docqa-data:
