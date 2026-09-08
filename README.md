@@ -21,12 +21,28 @@ key](#without-an-api-key)).
 
 ## Setup
 
+macOS / Linux:
+
 ```bash
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY=sk-ant-...                 # optional
+export ANTHROPIC_API_KEY=sk-ant-...   # optional
 uvicorn app.main:app --reload --port 8000
 ```
+
+Windows PowerShell:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+$env:ANTHROPIC_API_KEY = "sk-ant-..."  # optional
+uvicorn app.main:app --reload --port 8000
+```
+
+Windows PowerShell 5.1 has no `&&` operator, so run these as separate lines
+rather than chaining them.
 
 Open http://localhost:8000 and drag files from `samples/` onto the page, or load
 them from the shell:
