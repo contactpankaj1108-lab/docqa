@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DocQA — ask your documents</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="mark">DQ</span>
+      <div>
+        <h1>DocQA</h1>
+        <p id="status-line" class="muted">Loading…</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- Documents ------------------------------------------------------ -->
+    <aside class="panel documents">
+      <div class="panel-head">
+        <h2>Documents</h2>
+        <span id="doc-count" class="pill">0</span>
+      </div>
+
+      <form id="upload-form">
+        <label id="dropzone" for="file-input" class="dropzone">
+          <strong>Drop files here</strong>
+          <span class="muted">or click to browse — PDF, TXT, DOCX</span>
+          <input id="file-input" type="file" multiple accept=".pdf,.txt,.docx,.md" hidden>
+        </label>
+      </form>
+
+      <div id="upload-log" class="upload-log" hidden></div>
+
+      <p class="muted scope-hint">
+        Tick documents to restrict the search. Nothing ticked searches everything.
+      </p>
+      <ul id="doc-list" class="doc-list"></ul>
+    </aside>
+
+    <!-- Chat ----------------------------------------------------------- -->
+    <section class="panel chat">
+      <div id="transcript" class="transcript">
+        <div class="empty-state" id="empty-state">
+          <h2>Ask a question about your documents</h2>
+          <p class="muted">Answers are drawn only from what you upload, with citations back to the source.</p>
+          <div id="suggestions" class="suggestions"></div>
+        </div>
+      </div>
+
+      <form id="ask-form" class="composer">
+        <textarea id="question" rows="1" placeholder="Ask a question…  (Enter to send, Shift+Enter for a new line)" autocomplete="off"></textarea>
+        <button id="ask-button" type="submit">Ask</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Document preview ------------------------------------------------- -->
+  <dialog id="preview">
+    <div class="preview-head">
+      <h3 id="preview-title">Document</h3>
+      <button id="preview-close" type="button" aria-label="Close">×</button>
+    </div>
+    <div id="preview-body" class="preview-body"></div>
+  </dialog>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
